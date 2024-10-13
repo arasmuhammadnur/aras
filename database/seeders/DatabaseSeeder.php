@@ -32,10 +32,10 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Distributor::create([
-            'nama_distributor' => 'aras1', 
+            'nama_distributor' => 'araspaibo', 
             'lokasi' => 'Rupat', 
-            'kontak' => '081389775643',
-            'email' => 'ocupaibo@gmail.com',
+            'kontak' => '082256786544',
+            'email' => 'aras05@gmail.com',
         ]);
     }
 }

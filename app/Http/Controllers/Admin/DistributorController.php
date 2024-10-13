@@ -67,4 +67,13 @@ class DistributorController extends Controller
 
         return redirect()->route('distributor.index')->with('success', 'Distributor berhasil dihapus');
     }
+<<<<<<< HEAD
+=======
+    // Menampilkan detail distributor
+    public function show($id)
+    {
+        $distributor = Distributor::findOrFail($id);
+        return view('pages.admin.distributor.detail', compact('distributor'));
+    }
+>>>>>>> b9f0697 (Penerepan fungsi crud pada produk,distributor,dan flash sale)
 }
